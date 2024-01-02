@@ -1,0 +1,216 @@
+@media only screen and (min-width:577px) and (max-width:768px)
+{
+    *{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    header{
+        height:600px;
+        background-image: url('../images/call-of-duty.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .header-container{
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:20px;
+        padding-bottom:20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-container1{
+        padding:20px;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        
+    
+    }
+    .header-container2{
+        padding:20px;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+        
+        width:100%;
+    }
+    .navbarul1{
+        display: none;
+    }
+    .navbarul3{
+        display: block;
+        color:white;
+        margin-left: 20px;
+        position: relative;
+        bottom: 5px;
+
+        
+        
+    }
+
+    .navbarul3 li {
+        display: none;
+    }
+    .navbarul3:hover li {
+        display: block;
+        width:100px;
+        background-color: rgba(0,0,0,0.8);
+        text-align: center;
+    }
+    .navbarul3 li a{
+        text-decoration: none;
+        color:white;
+        border-bottom:1px solid white;
+        
+        margin-bottom: 3px;
+        
+    }
+    .navbar3container{
+        
+        display:flex;
+        align-items: flex-start;
+    }
+    .nav3li1{
+        margin-top: 12px;
+    }
+    .navbar3container{
+        
+        display:flex;
+        align-items: flex-start;
+        width:100%;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+        justify-content: center;
+    }
+    .navbarul3 li a:hover{
+        color:yellow;
+    }
+
+    .banner-text p{
+        color:white;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+    .banner-text{
+        padding:50px;
+        width:100%;
+        text-align: center;
+    }
+    .hori1{
+        margin-left: 0px;
+        width:60%;
+    }
+    .hori2{
+        width:5%;
+        position:relative;
+        top:-7px;
+        height:2px;
+    }
+    .fourpic{
+        width:48%;
+        height:500px;
+        padding:40px;
+        padding-bottom:10px!important;
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        
+    }
+    .fourpic3{
+        margin-top: 20px;
+
+    }
+    .fourpic4{
+        margin-top: 20px;
+    }
+    .newscontainer{
+        padding:0px 20px;
+        
+    
+    }
+    .twonewscontainer{
+        padding:0px 20px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .firstnews{
+        width:100%;
+        height:80px;
+       
+        display: flex;
+    }
+    .rectangle{
+        height:80px;
+    }
+    .newsleft{
+        width:48%;
+        height:400px;
+        background-image: url('../images/Rectangle 17.png');
+        border-width:4px;
+        border-style:solid;
+        border-image:linear-gradient(to top,pink,black)1;
+        padding:50px 10px;
+        display: grid;
+        align-items:end;
+    }
+    
+    
+    .newsright{
+        width:48%;
+        height:400px;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+   
+    .learnmorecontainer{
+        width:70%;
+       
+    }
+    .black-cell-container{
+        height:298px;
+        padding: 0px 20px;
+        background-image:url('../images/Rectangle 30.png');
+        background-repeat: no-repeat;
+        background-position: 20px;
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+    .blackcell-para{
+        width:100%;
+        padding:30px;
+        text-align: center;
+    }
+    .seven-pic-container{
+        padding:40px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-image:url('../images/32993994_840843081452 2.png') ;
+        background-size: cover;
+        background-position: center;
+    }
+    .seven-pic-item{
+        width:25%;
+    }
+    footer{
+        padding: 50px 100px;
+        text-align: center;
+    }
+    .fimg1{
+        margin-right: 20px;
+    }
+    footer p{
+        margin-top: 30px;
+    }
+
+}

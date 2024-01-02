@@ -1,0 +1,347 @@
+html{
+    background-color: black;
+    COLOR:white;
+    font-family: arial;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    height:900px;
+    background-image: url('../images/call-of-duty.png');
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container1{
+    padding:20px;
+    height:80px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    
+    width:62%;
+    
+
+}
+.header-container{
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display: flex;
+}
+.navbarul1{
+    display: inline-flex;
+}
+.navbarul1 li a{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+}
+.navbarul2{
+    display:inline-flex;
+
+    
+}
+.navbarul2 li a{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+.header-container2{
+    padding:20px;
+    height:80px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+    width:38%;
+}
+.preorder{
+    color:black !important;
+    padding:5px 10px;
+    background-color: white;
+}
+.navbarul3{
+    display: none;
+}
+.navbarul1 li a:hover{
+    color:yellow;
+}
+.navbarul2 li a:hover{
+    color:yellow;
+}
+
+.banner-text{
+    padding-left:200px;
+    width:50%;
+
+}
+.banner-text p{
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 600px;
+}
+.learnmore{
+    text-decoration:none;
+    color:white;
+    padding:10px 20px;
+    border:1px solid white;
+    
+
+}
+.learnmore:hover{
+    color: yellow;
+    border:1px solid yellow;
+}
+.blackcover{
+    bottom:50px;
+    position:relative;
+}
+.getthegame{
+    text-align: center;
+}
+.getthegame p{
+    font-weight: 700;
+    font-size: 36px;
+    font-family:arial;
+    margin-bottom: 30px;
+}
+.firsthorizontallinecontainer{
+    text-align: center;
+    
+}
+.hori1{
+    margin-left: 250px;
+}
+.hori2{
+    height:3px;
+    position: relative;
+    bottom:9px;
+}
+.fourpic1{
+    background-image: url('../images/Rectangle 4.png');
+    border-width:5px;
+    border-style:solid;
+    border-image: linear-gradient(to bottom,#33ff33,black)1;
+    background-position: center;
+    background-size: cover;
+}
+
+.fourpic2{
+    background-image: url('../images/Rectangle 5.png');
+    border-width:5px;
+    border-style:solid;
+    border-image: linear-gradient(to top,#33ff33,black)1;
+    background-position: center;
+    background-size: cover;
+}
+.fourpic3{
+    background-image: url('../images/Rectangle 6.png');
+    border-width:5px;
+    border-style:solid;
+    border-image: linear-gradient(to bottom,#33ff33,black)1;
+    background-position: center;
+    background-size: cover;
+}
+.fourpic4{
+    background-image: url('../images/Rectangle 7.png');
+    border-width:5px;
+    border-style:solid;
+    border-image: linear-gradient(to top,#33ff33,black)1;
+    background-position: center;
+    background-size: cover;
+}
+.fourpiccontainer{
+    display: flex;
+    padding:30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fourpic{
+    width:23%;
+    height:440px;
+    padding:40px;
+    padding-bottom:10px!important;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+}
+.firsthr{
+    
+    margin-bottom: 20px;
+    
+}
+.newscontainer{
+    padding:0px 200px;
+
+
+}
+.news{
+    text-align: center;
+    margin:10px 0px;
+    
+}
+.news p{
+    font-family: arial;
+    font-size:36px;
+    font-weight: 700;
+}
+.hr3{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+
+}
+.twonewscontainer{
+    padding:0px 200px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.newsleft{
+    width:48%;
+    height:500px;
+    background-image: url('../images/Rectangle 17.png');
+    border-width:4px;
+    border-style:solid;
+    border-image:linear-gradient(to top,pink,black)1;
+    padding:50px 10px;
+    display: grid;
+    align-items:end;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.newsright{
+    width:48%;
+    height:500px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.learnmorebutton{
+    padding:8px 15px;
+    text-decoration: none;
+    color:white;
+    border-width:1px;
+    border-style: solid;
+    border-image:linear-gradient(to left,white,yellow)1;
+
+}
+.learnmoreimage{
+    margin-bottom: 20px;
+    width:100%;
+}
+.learnmorecontainer{
+    width:50%;
+}
+.firstnews{
+    width:100%;
+    height:120px;
+   
+    display: flex;
+}
+.rectangle{
+    height:120px;
+}
+.getmore{
+    width:100%;
+    height:50px;
+    
+    
+}
+.newsimage{
+    width:50%;
+    height:120px;
+}
+.newspara{
+    padding: 0px 10px;
+}
+.daysago{
+    color:grey;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.getmore{
+    padding-top: 20px;
+    text-align: center;
+}
+.black-cell-container{
+    height:298px;
+    padding: 0px 200px;
+    background-image:url('../images/Rectangle 30.png');
+    background-repeat: no-repeat;
+    background-position: 200px;
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    
+}
+.blackcell-para{
+    width:50%;
+    padding:30px;
+}
+.blackcellh1{
+    font-size: 40px;
+
+}
+.greypara{
+    color:grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.purchase-blackcell{
+    text-decoration: none;
+    color:white;
+    padding:5px 10px;
+    border:1px solid green;
+    font-weight: 700;
+}
+.seven-pic-container{
+    padding:80px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url('../images/32993994_840843081452 2.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.seven-pic-item{
+    width:14.28%;
+    padding:20px 30px;
+}
+.seven-pic-item img{
+    width:100%;
+}
+.news p a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+.news2{
+    padding:10px 30px !important;
+}
+footer{
+    padding: 50px 300px;
+    text-align: center;
+}
+.fimg1{
+    margin-right: 20px;
+}
+footer p{
+    margin-top: 30px;
+}
+
+

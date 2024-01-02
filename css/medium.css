@@ -1,0 +1,153 @@
+@media only screen and (min-width:769px) and (max-width:991px)
+{
+    *{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    header{
+        height:700px;
+        background-image: url('../images/call-of-duty.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .header-container{
+        padding-left:50px;
+        padding-right:50px;
+        padding-top:20px;
+        padding-bottom:20px;
+        display: flex;
+    }
+    .header-container1{
+        padding:20px;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: center;
+        
+        width:29%;
+        
+    
+    }
+    .header-container2{
+        padding:20px;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: flex-start;
+        justify-content:flex-end;
+        
+        width:70%;
+    }
+    .navbarul1{
+        display: none;
+    }
+    .navbarul3{
+        display: block;
+        color:white;
+        margin-left: 20px;
+        position: relative;
+        top:15px;
+
+        
+        
+    }
+
+    .navbarul3 li {
+        display: none;
+    }
+    .navbarul3:hover li {
+        display: block;
+        width:100px;
+        background-color: rgba(0,0,0,0.8);
+        text-align: center;
+    }
+    .navbarul3 li a{
+        text-decoration: none;
+        color:white;
+        border-bottom:1px solid white;
+        
+        margin-bottom: 3px;
+        
+    }
+    .navbar3container{
+        
+        display:flex;
+        align-items: flex-start;
+        width:9%;
+        height:60px;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .nav3li1{
+        margin-top: 12px;
+    }
+    .navbarul3 li a:hover{
+        color:yellow;
+    }
+    .banner-text p{
+        color:white;
+        margin-bottom: 20px;
+        margin-top: 400px;
+    }
+    .banner-text{
+        padding-left:200px;
+        width:60%;
+    }
+    .hori1{
+        margin-left: 0px;
+    }
+    .fourpic{
+        width:23%;
+        height:250px;
+        padding:40px;
+        padding-bottom:10px!important;
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        
+    }
+    .newscontainer{
+        padding:0px 50px;
+        
+    
+    }
+    .twonewscontainer{
+        padding:0px 50px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .black-cell-container{
+        height:298px;
+        padding: 0px 50px;
+        background-image:url('../images/Rectangle 30.png');
+        background-repeat: no-repeat;
+        background-position: 50px;
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+    .seven-pic-container{
+        padding:40px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        background-image:url('../images/32993994_840843081452 2.png') ;
+        background-size: cover;
+        background-position: center;
+    }
+    .seven-pic-item{
+        width:25%;
+    }
+    footer{
+        padding: 50px 100px;
+        text-align: center;
+    }
+    .fimg1{
+        margin-right: 20px;
+    }
+    footer p{
+        margin-top: 30px;
+    }
+
+}
